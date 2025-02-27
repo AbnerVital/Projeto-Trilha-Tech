@@ -99,7 +99,7 @@ function adicionarInput() {
                 });
 
                 botaoNao = criarBotao("Não", () => {
-                    titulo.textContent = "Obrigado pela sua resposta!";
+                    titulo.textContent = "Abaixo está a lista das linguagens que você gostaria de aprender: ";
                     exibirRespostas(); // Exibe as respostas enviadas
 
                     // Esconder os botões "Sim" e "Não"
