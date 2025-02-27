@@ -74,21 +74,36 @@ main {
     background-color: #2980b9; /* Cor de fundo ao passar o mouse */
 }
 
-/* Estilo para a lista de respostas */
 ul {
     font-size: 20px;  /* Tamanho da fonte da lista */
     list-style-type: none;  /* Remove os pontos da lista */
     padding-left: 0;  /* Remove o espaçamento à esquerda */
     text-align: left;  /* Garante que os itens da lista sejam alinhados à esquerda */
+    background-color: rgba(255, 255, 255, 0.1);  /* Cor de fundo quase transparente (branco com opacidade) */
+    border: 1px solid rgba(255, 255, 255, 0.3);  /* Borda clara com um toque de transparência */
+    border-radius: 8px;  /* Bordas arredondadas */
+    padding: 20px;  /* Adiciona espaço interno ao redor da lista */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Sombra suave e discreta */
 }
 
 /* Estilo para os itens da lista */
 ul li {
-    font-size: 18px;  /* Tamanho da fonte dos itens da lista */
-    margin-bottom: 10px;  /* Espaçamento entre os itens */
+    font-size: 24px;  /* Tamanho da fonte dos itens da lista */
+    margin-bottom: 12px;  /* Espaçamento entre os itens */
     font-weight: bold;  /* Deixa o texto em negrito */
     text-align: left;  /* Garante que cada item comece na mesma linha */
+    padding: 10px;  /* Espaçamento interno entre os itens */
+    border-radius: 5px;  /* Bordas arredondadas para os itens */
+    color: white;  /* Texto branco */
+    transition: background-color 0.3s ease;  /* Efeito de transição suave para a cor de fundo */
 }
+
+/* Estilo de hover para os itens da lista */
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.3);  /* Aumenta a opacidade ao passar o mouse, para destaque */
+}
+
+
 
 
 
