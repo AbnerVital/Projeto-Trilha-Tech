@@ -64,7 +64,7 @@ function adicionarInput() {
     enviarBotao.style.fontWeight = "bold";
     enviarBotao.style.borderRadius = "5px";
     enviarBotao.style.border = "none";
-    enviarBotao.style.backgroundColor = "#2ecc71"; // Verde
+    enviarBotao.style.backgroundColor = "#3498db"; // Verde
     enviarBotao.style.color = "white";
     enviarBotao.style.cursor = "pointer";
 
